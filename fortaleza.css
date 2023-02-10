@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color: #005A64;
+  width: 100%;
+  height: 100vh;
+  left: 0%;
+  position: fixed;
+}
+.logo{
+    top: 3%;
+    position: fixed;
+    left: 2%;
+}
+.confirma{
+    top: 16%;
+    height: 90vh;
+    position: fixed;
+    left: 3%;
+    width: 100%;
+    color: #6FFFAF;
+    font-family: 'soleto';
+}
+.endereco{
+    top: 22%;
+    height: 78vh; 
+    left: 5%;
+    width: 100%;
+    position: fixed;
+    color: #6FFFAF;
+    font-family: 'soletoR';
+}
+.nome1{
+    top: 36%; 
+    height: 64vh; 
+    left: 5%;
+    width: 100%;
+    position: fixed;
+    color: #6FFFAF;
+    font-size: 130%;
+    font-family: 'soletoR';
+    border-radius: 100px;
+    
+}
+.nome1 input{
+    font-size: 70%;
+    font-family:'soleto' ;
+}
+form input{
+    border-radius: 100px;
+}
+
+.simesta{
+    top: 30%;
+    height: 70vh;
+    left: 5%;
+    width: 100%;
+    position: fixed;
+    font-size: 110%;
+    color: #6FFFAF;
+    font-family: 'soletoThin';
+}
+.naoesta{
+    top: 43%; 
+    height: 58vh; 
+    left: 5%;
+    width: 100%;
+    position: fixed;
+    color: #6FFFAF;
+    font-size: 110%;
+    font-family: 'soletoThin';
+}
+
+.envia{
+    top: 52%;
+    left: 12%;
+    position: fixed;
+    color: #002D32;
+    font-size: 110%;
+    background-color: #6FFFAF;
+    font-family: 'soleto';
+    border-radius: 100px;
+    width: 5%;
+    height: 5%;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+@font-face{
+    font-family:'soleto' ;
+    src: url('Soleto-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:'soletoR' ;
+    src: url('Soleto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:'soletoThin' ;
+    src: url('Soleto-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.dados{
+    top: 60%;
+    position: fixed;
+    color: #6FFFAF;
+    height: 40vh;
+    left: 6%;
+}
+.dados2{
+    top: 60%;
+    position: fixed;
+    color: #6FFFAF;
+    height: 40vh;
+    left: 6%;
+}
+.naoecho{
+    top: 60%;
+    position: fixed;
+    color: #6FFFAF;
+    height: 40vh;
+    left: 6%;
+}
